@@ -1,0 +1,125 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 137px;
+    height: 60px;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 35px;
+    text-align: left;
+    position: fixed;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.logo:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+.body {
+    font-family: Arial;
+    background-image: url(../img/Fundocinza.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.topo {
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+.slogan {
+    text-align: center;
+}
+
+#menu-h {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    height: 60px;
+}
+
+#menu-h li {
+    display: inline;
+}
+
+#menu-h li a {
+    font-size: 16pt;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+}
+
+#menu-h li a:hover {
+    background-color: rgb(124, 124, 202);
+}
+
+#menu-h li:nth-child(5) a {
+    float: right;
+}
+
+#menu-h li:last-child a {
+    float: right;
+}
+
+.menu {
+    border-bottom: solid 1px;
+}
+
+.espaco-menssagem {
+    border-bottom: solid 1px;
+}
+
+.menssagem {
+    text-align: center;
+    padding: 150px;
+    font-size: 20pt;
+}
+
+.imagem img {
+    height: 280px;
+}
+
+#contatos {
+    list-style-type: none;
+    text-align: center;
+    font-size: 14pt;
+    height: 200px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#contatos li a {
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+
+#icones {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#icones li {
+    display: inline;
+}
+
+#icones li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 35px;
+}
