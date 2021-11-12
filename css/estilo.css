@@ -1,0 +1,324 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 137px;
+    height: 60px;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 35px;
+    text-align: left;
+    position: fixed;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.logo:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+.body{
+    font-family: Arial;
+    background-image: url(../img/Fundocinza.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.topo{
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+.slogan{
+    text-align: center;
+}
+
+#menu-h{
+    max-width: 1000px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    height: 60px;
+}
+
+#menu-h li{
+    display: inline;
+    
+}
+
+#menu-h li a{
+    font-size: 16pt;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+}
+
+#menu-h li a:hover{
+    background-color:rgb(124, 124, 202);
+}
+
+#menu-h li:nth-child(5) a{
+    float: right;
+}
+
+
+#menu-h li:last-child a{
+    float: right;
+}
+
+
+
+.mensagemInicio{
+
+    height: 35vw;
+    font-family: Arial;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.Mensagem{
+    text-align: center;
+    margin: 150px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#CadastroB {
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ProdutosPs{
+    border-radius: 6px;
+    text-align: absolute;
+    padding: 5px;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+
+.titulo-produtos{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: Arial;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.espaco-cards{
+    height: 475px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.div-cards{
+    width: 300px;
+    height: 400px;
+    margin-top: 15px;
+    float:left;
+    margin-left: 115px;
+}
+
+.div-card-img img{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.div-card-img:hover{
+    cursor: pointer;
+    opacity: 70%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.div-card-desc{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    text-align: center;
+    padding: 5px;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+
+.div-card-desc:hover{
+    background-color: aquamarine;
+}
+
+.ver-produtos{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.botoes{
+    width: 150px;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 15px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+
+}
+
+.botoes:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.titulo-video{
+    border-top: solid 1px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16pt;
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.video{
+    height: 500px;
+    margin-top: 60px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.titulo-Depoimento{
+    margin-left: 20px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.areaDepoimento{
+    margin-top: 40px;
+    border-top: solid 1px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+
+.campo{
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.campo-txto{
+    height: 70px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+
+
+#contatos{
+    list-style-type: none;
+    text-align: center;
+    font-size: 14pt;
+    height: 200px;
+    margin-top: 30px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#contatos li a{
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+   
+}
+
+#icones{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+
+}
+
+#icones li{
+    display: inline;
+    
+}
+
+#icones li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 35px;
+    
+}
+ 
+.pesquisa{
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    background: #353b48;
+    height: 50px;
+    border-radius: 60px;
+    padding: 2px;
+}
+.pesquisa-btn{
+    color: #00a8ff;
+    float: right;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #353b48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 45px;
+    width: 0px;
+}
+.pesquisa:hover > .pesquisa-txt{
+    width: 220px;
+    padding: 0 6px;
+}
+.pesquisa:hover > .pesquisa-btn{
+    background: white;
+}
